@@ -1,0 +1,74 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.fourbox {
+    height: 140px;
+    width: 200px;
+    background-color: rgba(244, 162, 11, 0.936);
+    border-radius: 25;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.k {
+    width: 1000px;
+}
+
+.l {
+    width: 500px;
+}
+.po{
+    font-size: 3em;
+}
+
+.ol {
+    color: chocolate;
+    background-color: #00000082;
+}
+
+.ol1 {
+    color: chocolate;
+    background-color: #00000082;
+}
+.hero_area1 {
+    background-image: url('images/כייריםגז.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.hero_area {
+    background-image: url('images/pexels-curtis-adams-7601176.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.active2 {
+    color: white !important;
+    background: blue !important;
+}
+
+.stP {
+    text-align: justify;
+    column-count: 2;
+}
+
+ul {
+    gap: 20px; /* הוספת מרווחים בין הרשימות */
+    padding: 5px; /* מחיקת הריווחים המוגדרים על ידי הרשימה */
+  }
+  
+  ul li {
+    flex: 0 0 calc(50% - 10px); /* חלוקה לשתי עמודות עם מרווח של 20 פיקסלים בין הריקת הנקודות */
+    margin: 0; /* מחיקת הריווחים המוגדרים על ידי הרשימה */
+    padding: 5px; /* מחיקת הריווחים המוגדרים על ידי הרשימה */
+  }
+  
